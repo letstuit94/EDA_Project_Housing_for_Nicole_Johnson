@@ -18,6 +18,14 @@ One of the first steps when starting any data science project is to create a vir
 * upgrading `pip` (This step is not absolutely necessary, but will save you trouble when installing some packages.)
 * installing the required packages via `pip`
 
+```bash
+pyenv local 3.11.3
+python -m venv .venv
+source .venv/bin/activate
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
 *Note: We do have the `requirements.txt` in the repository but please try to first install packages by yourself.*
 
 At the end, you want to make sure that people who are interested in your project can create an identical environment on their own computer in order to be able to run your code without running into errors. Therefore you can create a `requirements file` and add it to your repository. You can create such a file by running the following command: 
