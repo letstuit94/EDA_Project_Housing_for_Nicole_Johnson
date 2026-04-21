@@ -1,7 +1,13 @@
-[![Shipping files](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml/badge.svg?branch=main&event=workflow_dispatch)](https://github.com/neuefische/ds-eda-project-template/actions/workflows/workflow-03.yml)
-# ds-project-template
+# EDA Project Housing for Nicole Johnson
 
-Template for creating ds simple projects
+This project presents an exploratory data analysis of the King County housing market using Python and SQL. The objective is to identify key factors influencing house prices and derive data-driven recommendations for a specific buyer persona, Nicole Johnson. She is looking to move within the next year into a central, lively neighborhood and is focusing on the mid-range price segment. The analysis aims to uncover optimal property characteristics and support informed decision-making in a competitive real estate market.
+
+The purchase recommendation for Nicole Johnson is developed collaboratively by:
+	•	Stuart
+	•	Vasyl
+	•	Jennifer
+
+Together, the team combines data analysis, statistical modeling, and domain insights to deliver a comprehensive, data-driven housing recommendation.
 
 ## Requirements
 

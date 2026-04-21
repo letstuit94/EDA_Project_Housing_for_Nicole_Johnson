@@ -70,7 +70,7 @@ The dataset includes a mix of numerical and categorical variables. The most rele
 ## Data Structure
 
 - **Number of observations**: around 21600 properties
-- **Number of features**: 21 variables
+- **Number of features**: 20+ variables
 - **Data types**:
   - Numerical: e.g., price, sqft_living, bedrooms
   - Categorical/ordinal: e.g., condition, grade, view
