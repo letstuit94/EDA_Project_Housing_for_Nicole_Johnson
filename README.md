@@ -42,7 +42,16 @@ pip freeze > requirements.txt
 
 *Note: In rare case such a requirements file created with `pip freeze` might not ensure that another (especially M1 chip) user can install and execute it properly. This can happen if libraries need to be compiled (e.g. SciPy). Then it also depends on environment variables and the actual system libraries.*
 
+## Presentation
+```bash
+pip install RISE
 
+jupyter nbconvert 1_task_preparation_and_descriptive_statistics.ipynb --to slides --no-input --post serve
+
+jupyter nbconvert 2_Exploratory Data Analysis.ipynb--to slides --no-input --post serve
+
+jupyter nbconvert 3_Sales_presentation_for_NJ.ipynb --to slides --no-input --post serve
+```
 --- 
 ## In Case of Failure
 If you fail to do the setup by yourself, then please revisit the previous repositories where you have done the setup and follow those steps.
