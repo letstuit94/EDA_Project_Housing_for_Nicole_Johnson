@@ -52,6 +52,15 @@ jupyter nbconvert 2_Exploratory Data Analysis.ipynb--to slides --no-input --post
 
 jupyter nbconvert 3_Sales_presentation_for_NJ.ipynb --to slides --no-input --post serve
 ```
+
+if server in use, then switch to a free port: 
+```bash
+jupyter nbconvert 3_Sales_presentation_for_NJ.ipynb \
+  --to slides \
+  --no-input \
+  --post serve \
+  --ServePostProcessor.port=8001
+```
 --- 
 ## In Case of Failure
 If you fail to do the setup by yourself, then please revisit the previous repositories where you have done the setup and follow those steps.
