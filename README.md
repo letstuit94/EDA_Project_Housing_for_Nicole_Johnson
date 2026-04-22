@@ -48,7 +48,7 @@ pip install RISE
 
 jupyter nbconvert 1_task_preparation_and_descriptive_statistics.ipynb --to slides --no-input --post serve
 
-jupyter nbconvert 2_Exploratory Data Analysis.ipynb--to slides --no-input --post serve
+jupyter nbconvert 2_Exploratory_Data_Analysis.ipynb --to slides --no-input --post serve
 
 jupyter nbconvert 3_Sales_presentation_for_NJ.ipynb --to slides --no-input --post serve
 ```
